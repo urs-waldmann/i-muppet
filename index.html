@@ -1,1 +1,201 @@
-<h1>Hello!</h1>
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="author" content="Urs Waldmann">
+        <meta name="description" content="Project page for 'I-MuPPET: Interactive Multi-Pigeon Pose Estimation and Tracking' (GCPR 2022, oral)">
+        <meta name="keywords" content="pose estimation, multi-object tracking, animals, applications">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>I-MuPPET: Interactive Multi-Pigeon Pose Estimation and Tracking</title>
+        <link rel="stylesheet" href="html/c.css">
+    </head>
+    <body>
+        <!-- header -->
+        <section>
+            <div class="container">
+                <div class="row">
+                    <h1 class="col-md-12 text-center">
+                        <b>I-MuPPET</b>:
+                        <br>
+                        <small class="h2">
+                            Interactive Multi-Pigeon Pose Estimation and Tracking
+                        </small>
+                        <br>
+                        <small class="h4">
+                            <a href="https://gcpr-vmv-2022.uni-konstanz.de/" target="_blank">GCPR 2022</a>, oral
+                        </small>
+                    </h1>
+                </div>
+                <hr style="margin-top:0px">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <a href="mailto:urs.waldmann@uni-konstanz.de">Urs Waldmann</a><sup>1,2</sup>, Hemal Naik<sup>1,2,3,4</sup>, Nagy Máté<sup>1,2,3,5,6</sup>, Fumihiro Kano<sup>2,3</sup>, Iain D. Couzin<sup>1,2,3</sup>, Oliver Deussen<sup>1,2</sup>, and Bastian Goldlücke<sup>1,2</sup>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <sup>1</sup> University of Konstanz, Germany
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <sup>2</sup> Centre for the Advanced Study of Collective Behaviour, University of Konstanz, Germany
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <sup>3</sup> Max Planck Institute of Animal Behavior, Konstanz, Germany
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <sup>4</sup> Technische Universität München, Munich, Germany
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <sup>5</sup> Hungarian Academy of Sciences, Budapest, Hungary
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <sup>6</sup> Eötvös Loránd University, Budapest, Hungary
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-md-2 col-md-offset-3 text-center">
+                        <ul class="nav nav-pills nav-justified">
+                            <li>
+                                <a href="docs/muppet_paper.pdf" target="_blank">
+                                <image src="imgs/paper.png" height="120px"><br>
+                                    <h4><strong>Paper</strong></h4>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2 text-center">
+                        <ul class="nav nav-pills nav-justified">
+                            <li>
+                                <a href="docs/muppet_supplemental.pdf" target="_blank">
+                                <image src="imgs/supplemental.png" height="120px"><br>
+                                    <h4><strong>Supplementary</strong></h4>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2 text-center">
+                        <ul class="nav nav-pills nav-justified">
+                            <li>
+                                <a href="https://github.com/urs-waldmann/i-muppet/" target="_blank">
+                                <image src="imgs/GitHub-Mark-120px-plus.png" height="120px"><br>
+                                    <h4><strong>Code</strong></h4>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- abstract -->
+        <section>
+            <div class="container">
+                <div class="row">
+                    <h3 class="col-md-12 text-center">
+                        <b>Abstract</b>
+                    </h3>
+                </div>
+                <hr style="margin-top:0px">
+                <div class="row">
+                    <div class="col-md-12">
+                        <img src="imgs/framework.jpg" alt="I-MuPPET Framework" style="width:100%">
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-md-12 text-left">
+                    Most tracking data encompasses humans, the availability of annotated tracking data for animals is limited, especially for multiple objects. To overcome this obstacle, we present I-MuPPET, a system to estimate and track 2D keypoints of multiple pigeons at interactive speed. We train a Keypoint R-CNN on single pigeons in a fully supervised manner and infer keypoints and bounding boxes of multiple pigeons with that neural network. We use a state of the art tracker to track the individual pigeons in video sequences. I-MuPPET is tested quantitatively on single pigeon motion capture data, and we achieve comparable accuracy to state of the art 2D animal pose estimation methods in terms of Root Mean Square Error (RMSE). Additionally, we test I-MuPPET to estimate and track poses of multiple pigeons in video sequences with up to four pigeons and obtain stable and accurate results with up to 17 fps. To establish a baseline for future research, we perform a detailed quantitative tracking evaluation, which yields encouraging results.
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- additional results -->
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h3>
+                            <b>Additional Results</b>
+                        </h3>
+                    </div>
+                </div>
+                <hr style="margin-top:0px">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h4>
+                            <b>Pose Estimation and Tracking of Multiple Pigeons</b>
+                        </h4>
+                        <p>I-MuPPET is trained on our single pigeon data set. Nevertheless we are able to estiamte and track poses for multiple pigeons.</p>
+                        <video id="v0" width="100%" autoplay loop muted controls>
+                            <source src="videos/1_pigeon.mp4" type="video/mp4" />
+                        </video>
+                        <video id="v0" width="100%" autoplay loop muted controls>
+                            <source src="videos/2_pigeons.mp4" type="video/mp4" />
+                        </video>
+                        <video id="v0" width="100%" autoplay loop muted controls>
+                            <source src="videos/3_pigeons.mp4" type="video/mp4" />
+                        </video>
+                        <video id="v0" width="100%" autoplay loop muted controls>
+                            <source src="videos/4_pigeons.mp4" type="video/mp4" />
+                        </video>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <br>
+                        <h4>
+                            <b>Pose Estimation of a 'DeepLabCut Mouse' with I-MuPPET</b>
+                        </h4>
+                        <p>I-MuPPET is trained on the odor trail tracking data set from <a href="http://www.mackenziemathislab.org/deeplabcut" target="_blank">DeepLabCut</a>.</p>
+                        <video id="v0" width="100%" autoplay loop muted controls>
+                            <source src="videos/DLC.mp4" type="video/mp4" />
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- citation -->
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h3>
+                            <b>Cite us</b>
+                        </h3>
+                    </div>
+                </div>
+                <hr style="margin-top:0px">
+                <div class="row">
+                    <div class="col-md-12">
+                        <pre style="background-color: #e9eeef">
+                            <code>
+    @inproceedings{waldmann2022imuppet,
+      title={I-MuPPET: Interactive Multi-Pigeon Pose Estimation and Tracking},
+      author={Waldmann, Urs and Naik, Hemal and M\'{a}t\'{e}, Nagy and Kano, Fumihiro and Couzin, Iain D. and Deussen, Oliver and Goldl\"{u}cke, Bastian},
+      booktitle={Pattern Recognition (Proc. of DAGM GCPR)},
+      year={2022}
+      }
+                            </code>
+                        </pre>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- footer -->
+        <footer class="text-center" style="margin-bottom:10px">
+            <a href="https://urs-waldmann.github.io/i-muppet/" target="_blank">I-MuPPET</a> is maintained by <a href="https://urs-waldmann.de/computer-vision/" target="_blank">Urs Waldmann</a>.
+        </footer>
+    </body>
+</html>
