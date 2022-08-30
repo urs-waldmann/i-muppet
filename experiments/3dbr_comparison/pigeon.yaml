@@ -1,0 +1,27 @@
+species: 'pigeon'
+print_freq: 10
+
+dataset:
+    training_session: 'united_sessions_3dbr_comparison_train_split'
+    pretrained_model:
+
+data_augmentation:
+    flip_probability: 0
+    scale_percentages_range:
+    brightness: 0
+    contrast: 0
+    saturation: 0
+    hue: 0
+    sharpness_factor: 0
+    sharpness_prob: 0.2
+    
+hyperparameters:
+    batch_size_train: 20
+    learning_rate: 0.005
+    momentum: 0.9
+    weight_decay: 0.0005
+    step_size: 12
+    gamma: 0.5
+    num_epochs: 60
+    
+num_workers: 0

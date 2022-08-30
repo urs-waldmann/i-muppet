@@ -1,0 +1,21 @@
+species: 'cowbird'
+print_freq: 10
+
+data_augmentation:
+    brightness: 0.3
+    contrast: 0
+    saturation: 0
+    hue: 0
+    sharpness_factor: 0
+    sharpness_prob: 0.1
+    
+hyperparameters:
+    batch_size_train: 20
+    learning_rate: 0.005
+    momentum: 0.9
+    weight_decay: 0.0005
+    step_size: 9
+    gamma: 0.5
+    num_epochs: 45
+    
+num_workers: 0

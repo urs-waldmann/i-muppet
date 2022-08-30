@@ -127,3 +127,15 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# my custom
+sort/
+.idea
+data/
+utils/engine.py
+utils/coco_eval.py
+utils/coco_utils.py
+utils/utils.py
+utils/img_utils.py
+utils/renderer.py
+utils/geometry.py
