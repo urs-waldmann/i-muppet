@@ -1,0 +1,6 @@
+# my custom
+.idea/
+data/
+sort/
+*/__pycache__
+utils/
