@@ -137,10 +137,13 @@
                         <h4>
                             <b>Pose Estimation and Tracking of Multiple Pigeons</b>
                         </h4>
-                        <p>I-MuPPET is trained on our single pigeon data set. Nevertheless we are able to estiamte and track poses for multiple pigeons.</p>
+                        <p>I-MuPPET is trained on our labeled single pigeon data set. Nevertheless we are able to estiamte and track poses for multiple pigeons.</p>
+                        <br>
+                        <p><b>Single pigeon.</b> In this video I-MuPPET estimates and tracks the pose of one pigeon. This single pigeon is not from our labeled single pigeon data set that we used for training.</p>
                         <video id="v0" width="100%" autoplay loop muted controls>
                             <source src="videos/1_pigeon.mp4" type="video/mp4" />
                         </video>
+                        <p><br><br><b>Multiple pigeons.</b> In the following videos I-MuPPET estimates and tracks the pose of multiple pigeons, although only trained on data containing one single pigeon.</p>
                         <video id="v0" width="100%" autoplay loop muted controls>
                             <source src="videos/2_pigeons.mp4" type="video/mp4" />
                         </video>
@@ -150,6 +153,8 @@
                         <video id="v0" width="100%" autoplay loop muted controls>
                             <source src="videos/4_pigeons.mp4" type="video/mp4" />
                         </video>
+                        <p><i>Failure case: From 'ID 1' we see that in some cases of the multi-pigeon video sequences,
+pose estimation is not accurate. Please keep in mind that I-MuPPET is trained on our labeled single pigeon data set only.</i></p>
                     </div>
                 </div>
                 <div class="row">
