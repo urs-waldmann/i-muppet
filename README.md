@@ -12,18 +12,23 @@ Set up a conda environment with `conda env create -f environment.yml`.
 
 ## Data
 **Multi-pigeon video sequences**
+
 Our multi-pigeon video sequences can be downloaded [here](https://zenodo.org/record/7037403). Unzip and copy the 'videos' folder to `./data/`. You can use these video sequences to run I-MuPPET with pre-trained weights that we provide.
 
 **Labeled single pigeon data**
+
 If you are interested to train I-MuPPET on our labeled single pigeon data set, we kindly ask you to reach out to us. Unzip and copy the 'pigeon_data' folder that we will provide to `./data/annotations/`.
 
 **Odor trail tracking video sequence (mouse) from DeepLabCut**
+
 A video sequence of the [odor trail tracking data](https://zenodo.org/record/4008504#.YYK5IdbMIeZ) from [DeepLabCut](https://www.nature.com/articles/s41593-018-0209-y) can be found [here](https://github.com/DeepLabCut/DeepLabCut/tree/master/examples/openfield-Pranav-2018-10-30/videos). Download the video and copy it to `./data/videos/`.
 
 **Odor trail tracking data (mice) from DeepLabCut preprocessed for I-MuPPET**
+
 We also provide [odor trail tracking data](https://zenodo.org/record/4008504#.YYK5IdbMIeZ) from [DeepLabCut](https://www.nature.com/articles/s41593-018-0209-y) that we preprocessed. You can download this data [here](https://zenodo.org/record/7037327). Unzip and copy the 'dlc_data' folder to `./data/annotations/`. Use this data to train I-MuPPET.
 
 **Cowbird data from "3D Bird Reconstruction"**
+
 ["3D Bird Reconstruction"](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123630001.pdf) provides a cowbird data set. You can find it [here](https://drive.google.com/file/d/1vyXYIJIo9jneIqC7lowB4GVi17rjztjn/view). Download and copy to `./data/annotations/`. Use this data to train I-MuPPET for cowbirds.
 
 ## Pre-trained weights
@@ -31,6 +36,7 @@ Pre-trained weights for pigeons can be downloaded [here](https://zenodo.org/reco
 
 ## I-MuPPET
 **Preliminary task**
+
 Clone the [SORT GitHub repository](https://github.com/abewley/sort) into `./`.
 
 ### Interactive Multi-Pigeon Pose Estimation and Tracking
@@ -52,6 +58,7 @@ To run I-MuPPET in full screen, use `--full_screen`. To end video processing, pr
 
 ## Train
 **Preliminary task**
+
 From this [PyTorch GitHub repository](https://github.com/pytorch/vision/tree/main/references/detection) download "coco_eval.py", "coco_utils.py", "engine.py" and "utils.py" and place them under `./utils/`.
 
 ### Training
