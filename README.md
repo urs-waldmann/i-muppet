@@ -11,13 +11,17 @@ If you find a bug, have a question or know how to improve the code, please open 
 Set up a conda environment with `conda env create -f environment.yml`.
 
 ## Data
-**Multi-pigeon video sequences**
+**Multi-pigeon video sequences from the project page**
 
-Our multi-pigeon video sequences can be downloaded [here](https://zenodo.org/record/7037403). Unzip and copy the 'videos' folder to `./data/`. You can use these video sequences to run I-MuPPET with pre-trained weights that we provide.
+Our multi-pigeon video sequences from the [project page](https://urs-waldmann.github.io/i-muppet/) can be downloaded [here](https://zenodo.org/record/7037403). Unzip and copy the 'videos' folder to `./data/`. You can use these video sequences to run I-MuPPET with pre-trained weights that we provide.
 
 **Labeled single pigeon data**
 
 If you are interested to train I-MuPPET on our labeled single pigeon data set, we kindly ask you to reach out to us. Unzip and copy the 'pigeon_data' folder that we will provide to `./data/annotations/`.
+
+**Multi-pigeon video sequences with ground truth for the quantitative tracking evaluation**
+
+Our multi-pigeon video sequences with ground truth for the quantitative tracking evaluation can be downloaded [here](https://zenodo.org/record/7038391). Unzip and copy the 'data' folder to `./`.
 
 **Odor trail tracking video sequence (mouse) from DeepLabCut**
 
