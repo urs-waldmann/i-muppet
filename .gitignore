@@ -130,7 +130,7 @@ dmypy.json
 
 # my custom
 sort/
-.idea
+.idea/
 data/
 utils/engine.py
 utils/coco_eval.py
