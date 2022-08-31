@@ -13,15 +13,15 @@ Set up a conda environment with `conda env create -f environment.yml`.
 ## Data
 **Multi-pigeon video sequences from the project page**
 
-Our multi-pigeon video sequences from the [project page](https://urs-waldmann.github.io/i-muppet/) can be downloaded [here](https://zenodo.org/record/7037403). Unzip and copy the 'videos' folder to `./data/`. You can use these video sequences to run I-MuPPET with pre-trained weights that we provide.
+Our multi-pigeon video sequences from the [project page](https://urs-waldmann.github.io/i-muppet/) can be downloaded [here](https://zenodo.org/record/7037403). Unzip and copy the "videos" folder to `./data/`. You can use these video sequences to run I-MuPPET with pre-trained weights that we provide.
 
 **Labeled single pigeon data**
 
-If you are interested to train I-MuPPET on our labeled single pigeon data set, we kindly ask you to reach out to us. Unzip and copy the 'pigeon_data' folder that we will provide to `./data/annotations/`.
+If you are interested to train I-MuPPET on our labeled single pigeon data set, we kindly ask you to reach out to us. Unzip and copy the "pigeon_data" folder that we will provide to `./data/annotations/`.
 
 **Multi-pigeon video sequences with ground truth for the quantitative tracking evaluation**
 
-Our multi-pigeon video sequences with ground truth for the quantitative tracking evaluation can be downloaded [here](https://zenodo.org/record/7038391). Unzip and copy the 'data' folder to `./`.
+Our multi-pigeon video sequences with ground truth for the quantitative tracking evaluation can be downloaded [here](https://zenodo.org/record/7038391). Unzip and copy the "data" folder to `./`.
 
 **Odor trail tracking video sequence (mouse) from DeepLabCut**
 
@@ -29,14 +29,14 @@ A video sequence of the [odor trail tracking data](https://zenodo.org/record/400
 
 **Odor trail tracking data (mice) from DeepLabCut preprocessed for I-MuPPET**
 
-We also provide [odor trail tracking data](https://zenodo.org/record/4008504#.YYK5IdbMIeZ) from [DeepLabCut](https://www.nature.com/articles/s41593-018-0209-y) that we preprocessed. You can download this data [here](https://zenodo.org/record/7037327). Unzip and copy the 'dlc_data' folder to `./data/annotations/`. Use this data to train I-MuPPET.
+We also provide [odor trail tracking data](https://zenodo.org/record/4008504#.YYK5IdbMIeZ) from [DeepLabCut](https://www.nature.com/articles/s41593-018-0209-y) that we preprocessed. You can download this data [here](https://zenodo.org/record/7037327). Unzip and copy the "dlc_data" folder to `./data/annotations/`. Use this data to train I-MuPPET.
 
 **Cowbird data from "3D Bird Reconstruction"**
 
 ["3D Bird Reconstruction"](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123630001.pdf) provides a cowbird data set. You can find it [here](https://drive.google.com/file/d/1vyXYIJIo9jneIqC7lowB4GVi17rjztjn/view). Download and copy to `./data/annotations/`. Use this data to train I-MuPPET for cowbirds.
 
 ## Pre-trained weights
-Pre-trained weights for pigeons can be downloaded [here](https://zenodo.org/record/7037589), while for cowbirds and mice you find the pre-trained weights [here](https://zenodo.org/record/7037558). Unzip and copy the 'weights' folder to `./data/`. You can use these pre-trained weights e.g. to run I-MuPPET on the multi-pigeon video sequences that we provide.
+Pre-trained weights for pigeons can be downloaded [here](https://zenodo.org/record/7037589), while for cowbirds and mice you find the pre-trained weights [here](https://zenodo.org/record/7037558). Unzip and copy the "weights" folder to `./data/`. You can use these pre-trained weights e.g. to run I-MuPPET on the multi-pigeon video sequences that we provide.
 
 ## I-MuPPET
 **Preliminary task**
