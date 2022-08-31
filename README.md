@@ -1,18 +1,16 @@
 # I-MuPPET: Interactive Multi-Pigeon Pose Estimation and Tracking
----
 This repository provides code for [I-MuPPET](https://urs-waldmann.github.io/i-muppet/) (GCPR 2022, oral).
-**Abstract**
-Most tracking data encompasses humans, the availability of annotated tracking data for animals is limited, especially for multiple objects. To overcome this obstacle, we present I-MuPPET, a system to estimate and track 2D keypoints of multiple pigeons at interactive speed. We train a Keypoint R-CNN on single pigeons in a fully supervised manner and infer keypoints and bounding boxes of multiple pigeons with that neural network. We use a state of the art tracker to track the individual pigeons in video sequences. I-MuPPET is tested quantitatively on single pigeon motion capture data, and we achieve comparable accuracy to state of the art 2D animal pose estimation methods in terms of Root Mean Square Error (RMSE). Additionally, we test I-MuPPET to estimate and track poses of multiple pigeons in video sequences with up to four pigeons and obtain stable and accurate results with up to 17 fps. To establish a baseline for future research, we perform a detailed quantitative tracking evaluation, which yields encouraging results. 
 
+**Abstract**
+
+Most tracking data encompasses humans, the availability of annotated tracking data for animals is limited, especially for multiple objects. To overcome this obstacle, we present I-MuPPET, a system to estimate and track 2D keypoints of multiple pigeons at interactive speed. We train a Keypoint R-CNN on single pigeons in a fully supervised manner and infer keypoints and bounding boxes of multiple pigeons with that neural network. We use a state of the art tracker to track the individual pigeons in video sequences. I-MuPPET is tested quantitatively on single pigeon motion capture data, and we achieve comparable accuracy to state of the art 2D animal pose estimation methods in terms of Root Mean Square Error (RMSE). Additionally, we test I-MuPPET to estimate and track poses of multiple pigeons in video sequences with up to four pigeons and obtain stable and accurate results with up to 17 fps. To establish a baseline for future research, we perform a detailed quantitative tracking evaluation, which yields encouraging results. 
 
 If you find a bug, have a question or know how to improve the code, please open an issue.
 
 ## Conda environment
----
 Set up a conda environment with `conda env create -f environment.yml`.
 
 ## Data
----
 **Multi-pigeon video sequences**
 Our multi-pigeon video sequences can be downloaded [here](https://zenodo.org/record/7037403). Unzip and copy the 'videos' folder to `./data/`. You can use these video sequences to run I-MuPPET with pre-trained weights that we provide.
 
@@ -29,11 +27,9 @@ We also provide [odor trail tracking data](https://zenodo.org/record/4008504#.YY
 ["3D Bird Reconstruction"](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123630001.pdf) provides a cowbird data set. You can find it [here](https://drive.google.com/file/d/1vyXYIJIo9jneIqC7lowB4GVi17rjztjn/view). Download and copy to `./data/annotations/`. Use this data to train I-MuPPET for cowbirds.
 
 ## Pre-trained weights
----
 Pre-trained weights for pigeons can be downloaded [here](https://zenodo.org/record/7037589), while for cowbirds and mice you find the pre-trained weights [here](https://zenodo.org/record/7037558). Unzip and copy the 'weights' folder to `./data/`. You can use these pre-trained weights e.g. to run I-MuPPET on the multi-pigeon video sequences that we provide.
 
 ## I-MuPPET
----
 **Preliminary task**
 Clone the [SORT GitHub repository](https://github.com/abewley/sort) into `./`.
 
@@ -55,7 +51,6 @@ To run I-MuPPET on the [odor trail tracking data](https://zenodo.org/record/4008
 To run I-MuPPET in full screen, use `--full_screen`. To end video processing, press the "q" key on your keyboard.
 
 ## Train
----
 **Preliminary task**
 From this [PyTorch GitHub repository](https://github.com/pytorch/vision/tree/main/references/detection) download "coco_eval.py", "coco_utils.py", "engine.py" and "utils.py" and place them under `./utils/`.
 
@@ -89,7 +84,6 @@ To display some samples of the data sets with their annotations, use `--display_
 To quit, press the "q" key on your keyboard.
 
 ## Cite us
----
 
     @inproceedings{waldmann2022imuppet,
       title={I-MuPPET: Interactive Multi-Pigeon Pose Estimation and Tracking},
