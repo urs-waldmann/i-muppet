@@ -71,19 +71,19 @@ To train I-MuPPET on our labeled single pigeon data, run e.g.:
     
 The training will start with the configuration file specified by `--config`. The new weights will be stored in `./data/weights/my_weights/`.
 
-### Odor trail tracking data (mice) from DeepLabCut
+#### Odor trail tracking data (mice) from DeepLabCut
 To train I-MuPPET on the odor trail tracking data (mice) from [DeepLabCut](https://www.nature.com/articles/s41593-018-0209-y), run e.g.:
 
     python train.py --config './experiments/dlc_comparison/mouse_split_1.yaml'
     
-### Cowbirds from "3D Bird Reconstuction"
+#### Cowbirds from "3D Bird Reconstuction"
 Before training, download "geometry.py", "img_utils.py" and "renderer.py" from the ["3D Bird Reconstruction" GitHub Repository](https://github.com/marcbadger/avian-mesh/tree/master/utils) and place them under `./data/utils/`.
 
 To train I-MuPPET on the cowbird data from ["3D Bird Reconstruction"](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123630001.pdf), run e.g.:
 
     python train.py --config './experiments/3dbr_comparison/cowbird_45_epochs.yaml'
 
-### Visualization
+#### Visualization
 To display some samples of the data sets with their annotations, use `--display_data`, e.g.:
 
     python train.py --config './experiments/muppet_600.yaml' --display_data
