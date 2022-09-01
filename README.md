@@ -60,6 +60,10 @@ To run I-MuPPET on the [odor trail tracking data](https://zenodo.org/record/4008
     
 To run I-MuPPET in full screen, use `--full_screen`. To end video processing, press the "q" key on your keyboard.
 
+### Quantitative tracking evaluation
+
+To store the tracking data required for quantitative evaluation, use `--write_tracking_data`. The detector and tracker data will be stored in `./data/tracking/gt/` and `./data/tracking/trackers/` respectively in the [MOTChallenge](https://motchallenge.net/) (2D MOT 15) [format](https://github.com/JonathonLuiten/TrackEval/blob/master/docs/MOTChallenge-Official/Readme.md).
+
 ## Train
 **Preliminary task**
 
@@ -80,7 +84,7 @@ To train I-MuPPET on the odor trail tracking data (mice) from [DeepLabCut](https
 
     python train.py --config './experiments/dlc_comparison/mouse_split_1.yaml'
     
-#### Cowbirds from "3D Bird Reconstuction"
+#### Cowbirds from "3D Bird Reconstruction"
 Before training, download "geometry.py", "img_utils.py" and "renderer.py" from the ["3D Bird Reconstruction" GitHub Repository](https://github.com/marcbadger/avian-mesh/tree/master/utils) and place them under `./data/utils/`.
 
 To train I-MuPPET on the cowbird data from ["3D Bird Reconstruction"](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123630001.pdf), run e.g.:
