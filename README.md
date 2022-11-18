@@ -103,7 +103,7 @@ To quit, press the "q" key on your keyboard.
     @inproceedings{waldmann2022imuppet,
       title={I-MuPPET: Interactive Multi-Pigeon Pose Estimation and Tracking},
       author={Waldmann, Urs and Naik, Hemal and M\'{a}t\'{e}, Nagy and Kano, Fumihiro and Couzin, Iain D. and Deussen, Oliver and Goldl\"{u}cke, Bastian},
-      booktitle={Pattern Recognition (Proc. of DAGM GCPR)},
+      booktitle={DAGM German Conference on Pattern Recognition},
       year={2022}
       }
       
