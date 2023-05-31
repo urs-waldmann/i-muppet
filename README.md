@@ -17,7 +17,7 @@ Our multi-pigeon video sequences from the [project page](https://urs-waldmann.gi
 
 **Labeled single pigeon data**
 
-If you are interested to train I-MuPPET on our labeled single pigeon data set, we kindly ask you to reach out to us. Unzip and copy the "pigeon_data" folder that we will provide to `./data/annotations/`.
+Our annotated single pigeon data can be downloaded [here](https://zenodo.org/record/7989831#.ZHcVyF7P0uU). Unzip and copy the "pigeon_data" folder to `./data/annotations/`.
 
 **Multi-pigeon video sequences with ground truth for the quantitative tracking evaluation**
 
@@ -29,7 +29,7 @@ A video sequence of the [odor trail tracking data](https://zenodo.org/record/400
 
 **Odor trail tracking data (mice) from DeepLabCut preprocessed for I-MuPPET**
 
-We also provide [odor trail tracking data](https://zenodo.org/record/4008504#.YYK5IdbMIeZ) from [DeepLabCut](https://www.nature.com/articles/s41593-018-0209-y) that we preprocessed. You can download this data [here](https://zenodo.org/record/7037327). Unzip and copy the "dlc_data" folder to `./data/annotations/`. Use this data to train I-MuPPET.
+We also provide [odor trail tracking data](https://zenodo.org/record/4008504#.YYK5IdbMIeZ) from [DeepLabCut](https://www.nature.com/articles/s41593-018-0209-y) that we preprocessed. You can download this data [here](https://zenodo.org/record/7037327). Unzip and copy the "dlc_data" folder to `./data/annotations/`. Use this data to train I-MuPPET for mice.
 
 **Cowbird data from "3D Bird Reconstruction"**
 
