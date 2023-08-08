@@ -1,3 +1,9 @@
+## News
+
+**2023/05/31** Annotated single pigeon data to reproduce the results of the paper is available [here](https://zenodo.org/record/7989831#.ZHcVyF7P0uU).
+
+**2023/05/31** Benchmark on 2D multi-pigeon tracking is available [here](https://zenodo.org/record/7038391).
+
 # I-MuPPET: Interactive Multi-Pigeon Pose Estimation and Tracking
 This repository provides code for [I-MuPPET](https://urs-waldmann.github.io/i-muppet/) (GCPR 2022, oral).
 
