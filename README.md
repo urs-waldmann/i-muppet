@@ -1,5 +1,7 @@
 ## News
 
+**2023/08/30** We extend I-MuPPET to 3D. We show that 3D-MuPPET also works in natural environments without model fine-tuning on additional annotations. [[arXiv](https://arxiv.org/abs/2308.15316)]
+
 **2023/05/31** Annotated single pigeon data to reproduce the results of the paper is available [here](https://zenodo.org/record/7989831#.ZHcVyF7P0uU).
 
 **2023/05/31** Benchmark on 2D multi-pigeon tracking is available [here](https://zenodo.org/record/7038391).
